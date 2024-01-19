@@ -1,0 +1,334 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+width: 100%;
+height:100%;
+}
+
+header {
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: row;
+}
+
+
+
+/* .header-content {
+width: 95%;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row;
+} */
+
+.logo {
+    width: 42px;
+    height: 59px;
+    padding-top: 5px;
+    margin-left: 50px 
+
+}
+
+.nav-links  {
+display: flex;
+width: 60%;
+gap: 100px;
+align-items: center;
+margin-left: 60px;
+color: #4D4C4C;
+}
+.nav-links  li a {
+    color: black;
+}
+
+
+.logo-01 {
+
+    width: 420px;
+    height: 183px;
+    margin-right: 370px;
+    
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 175px 350px  0 0;
+    
+}
+
+.logo-01 {
+    top: 301px;
+    left: 121px;
+    width: 420px;
+    height: 183px;
+
+}
+
+.banner-01 h5{
+
+    color: black;
+    font-size: 29px;
+    margin-top: 45px;
+    margin-bottom: 30px; 
+    margin-left: 15px;
+}
+
+.banner-01 p {
+    max-width: 430px;
+    font-size: 17px;
+    line-height: 32px;
+    margin-left: 10px;
+}
+.container-btn {
+ top: 700px;
+left: 140px;
+width: 123px;
+height: 34px;
+text-transform: uppercase;
+margin-top: 29px;
+margin-left: 10px;
+background: transparent url('img/Group 242.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.clients-01,.clients-02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.banner-02 h5{
+
+    color: #050766;
+    font-size: 40px;
+    width: 431px;
+    height: 106px;
+    margin-bottom: 30px;
+}
+.banner-02 p {
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 32px;
+    /* margin-left: 352px; */
+    color:#6F6F6F;
+    margin-bottom: 40px;
+}
+.image-01 {
+    /* max-width: 39%;
+    max-height:29%; */
+    width: 50%;
+    float: right;
+}
+.banner-03 h5{
+
+    color: #050766;
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 30px; 
+    margin-left: 739px;
+}
+.banner-03 p {
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 700px;
+    margin-bottom: 15px;
+    color: #2F2E2E;
+}
+.banner-03 ,.products {
+    background-color: #F0F4F7;
+}
+
+.image-02 {
+    max-width: 39%;
+    max-height:29%;
+    margin-left: 100px;
+    float: left;
+}
+.banner-btn {
+   width: 123px;
+   height: 34px;
+   text-transform: uppercase;
+   border-radius: 10px;
+   border-color: #2196F3;
+   color: dodgerblue;
+   background: transparent url('img/Group 244.png') 0% 0% no-repeat padding-box;
+   opacity: 1;
+   }
+   .banner-button {
+    top: 700px;
+   left: 140px;
+   width: 123px;
+   height: 34px;
+   text-transform: uppercase;
+   margin-top: 3px;
+   margin-left: 710px;
+   border-radius: 10px;
+   border-color: #2196F3;
+   color: dodgerblue;
+   background: transparent url('img/Group 244.png') 0% 0% no-repeat padding-box;
+   opacity: 1;
+   }
+   .products{
+    /* padding-left: 250px;
+    padding-right: 100px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .products-01,.products-02 {
+    display: flex;
+    font-size: 21px;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent url('img/shutterstock_2312708983.png') 0% 0% no-repeat padding-box;
+    opacity: 1;  
+}
+
+.product-01,.product-02,.product-03,.product-04,.product-05,.product-06 {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.product-01 p,.product-02 p,.product-03 p,.product-04 p,.product-05 p,.product-06 p {
+   
+    font-size: 20px;
+    width: 303px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-right: 30px;
+} 
+.products-01 img, .products-02 img {
+    width: 250px;
+    height: 190px;
+    background: transparent url('img/Rectangle 280.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+ .products h5{
+    font-size: 21px;
+    color: #050766;
+ }
+
+.insights h5 {
+    font-size: 40px;
+    color: #050766;
+    margin-left: 550px;
+    margin-top: 30px;
+    background: transparent url('img/Insights.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.insights {
+    /* background-color: white; */
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.insights h5{
+    margin-bottom: 30px;
+}
+.insights p {
+    font-size: 20px;
+    color: #2F2E2E;
+    max-width: 1150px;
+    text-align: center;
+    padding-left: 20px;
+}
+.insights-01 h6 {
+    font-size: 26px;
+    color: #050766;
+    width: 303px;
+    
+}
+
+.footer-container  {
+    background-color: #050766;
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.section-01,.section-02,.section-03,.section-04 {
+    font-size: 21px;
+    
+}
+.footer-container ul li {
+    font-size: 14px;
+}
+.footer-container-img {
+    width: 200px;
+    height: 100px;
+}
+.footer-container h5 {
+    font-size: 21px;
+    color:#FFFFFF;
+}
+
+.icon i {
+        margin-top: 200px;
+        display: inline-block;
+        margin-right: 1em;
+      }
+.banner-content  {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        align-items: flex-end;
+      }
+      .case-study-img ,.whitepaper-img,.Blog-img  {
+        width: 364px;
+        height: 303px;
+        opacity:100%;
+      }
+      .insights-01  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .insights-01 h6 {
+        padding-left: 113px;
+        margin-top: 70px;
+      }
+      .card p {
+        background-color:#6F6F6F;
+        font-size: 20px;
+        background: transparent url('img/Lorem ipsum dolor sit amet, consetetur sadipscing..png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        max-width: 50%;
+        padding-left: 10px;
+        margin-left: 100px 
+      }
+     
+      
